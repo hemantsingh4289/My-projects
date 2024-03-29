@@ -1,0 +1,66 @@
+table,tr,th{
+    border-style: solid;
+    border-collapse: collapse;
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+p {
+    line-height: 1.6;
+    color: #555;
+}
+header{
+    
+    background-color: #333;
+    color:rgb(5, 187, 242);
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    }
+.virushka{
+    text-align: center;
+}
+h1{
+    color: rgb(39, 106, 133);
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.double{
+    display: inline;
+    border-style: solid;
+    border-color:rgb(47, 138, 94);
+    border-width: 5px;
+}
+.grid{
+    width: 100vw;
+    height: 100vh;
+    background-color: #555;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+}
+
+.firstt{ width: 100vw;
+    height: 52vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+}
